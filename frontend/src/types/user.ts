@@ -1,0 +1,7 @@
+User
+
+Patient
+
+Doctor
+
+Admin

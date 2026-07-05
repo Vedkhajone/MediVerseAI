@@ -1,7 +1,5 @@
 # MediVerse AI Development Log
 
----
-
 ## Sprint 1 – Project Foundation
 
 ### Day 1
@@ -31,3 +29,93 @@ Date:
 ### Next Session
 - Build AppShell
 - Understand reusable components
+
+# Sprint 2 - Day 1
+
+## Objective
+Build the first working dashboard using our own architecture.
+
+## Completed
+- Created AppShell component
+- Understood React children
+- Created DashboardPage
+- Connected App.tsx to DashboardPage
+- Successfully rendered the first MediVerse dashboard
+
+## Learned
+- What a Layout Component is
+- What children are
+- Component Composition
+- React Project Structure
+
+## Problems
+- Initially copied AppShell from Lovable
+- Learned why copying dependencies creates errors
+- Decided to rebuild components ourselves
+
+## Next Goal
+Build Sidebar
+
+## Sprint 2 – Day 2
+
+### Goal
+Build the first reusable application layout.
+
+### Completed
+- Created Sidebar component
+- Integrated Sidebar into AppShell
+- Built a two-column dashboard layout
+- Understood nested layouts with Flexbox
+
+### Learned
+- Flexbox basics
+- Nested components
+- Layout composition
+- Why dashboards reuse the same shell
+
+### Next
+- Style the sidebar
+- Add icons
+- Add active navigation
+
+# Sprint 2 - Day 2
+
+## Debugging Session
+
+### Problem
+Application displayed a black screen after introducing Lucide icons.
+
+### Root Cause
+The `lucide-react` package had not been installed.
+
+### Solution
+Installed the dependency:
+
+npm install lucide-react
+
+Verified the installation with a test component.
+
+### Lesson Learned
+Always install and verify a library before using it in components.
+
+### Status
+Application running successfully.
+
+## Sprint 2 - Day 3
+
+### Goal
+
+Create the first reusable Header component.
+
+### Completed
+
+- Created Header.tsx
+- Passed data using props
+- Connected Header with AppShell
+
+### Learned
+
+- Props
+- Component separation
+- Reusable layouts
+
