@@ -1,6 +1,6 @@
 interface StatCardProps {
   title: string;
-  value: string;
+  value: number;
 }
 
 export default function StatCard({
@@ -10,14 +10,22 @@ export default function StatCard({
   return (
     <div
       style={{
-        border: "1px solid #ddd",
-        borderRadius: "12px",
-        padding: "20px",
         width: "220px",
-        background: "white",
+        padding: "20px",
+        borderRadius: "12px",
+        border: "1px solid #ddd",
+        backgroundColor: "#ffffff",
+        boxShadow: "0px 2px 8px rgba(0,0,0,0.08)",
       }}
     >
-      <h3>{title}</h3>
+      <h3
+        style={{
+          marginBottom: "10px",
+          color: "#666",
+        }}
+      >
+        {title}
+      </h3>
 
       <h1>{value}</h1>
     </div>

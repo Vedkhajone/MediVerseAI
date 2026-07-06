@@ -119,3 +119,23 @@ Create the first reusable Header component.
 - Component separation
 - Reusable layouts
 
+# Sprint 2 - Day 4
+
+## Objective
+
+Build the first reusable StatCard.
+
+## Completed
+
+- Created StatCard component
+- Used Props
+- Added four dashboard cards
+- Learned reusable UI
+
+## Learned
+
+- Props
+- Component Reuse
+- Dashboard Layout
+
+# Sprint 2 - Day 5
