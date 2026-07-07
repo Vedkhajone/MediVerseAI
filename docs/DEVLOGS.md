@@ -155,3 +155,22 @@ Refactor Dashboard using OverviewCards.
 - Component hierarchy
 - Parent-child components
 - Refactoring
+
+# Sprint 2 - Day 6
+
+## Objective
+
+Split Dashboard into reusable sections.
+
+## Completed
+
+- WelcomeSection
+- QuickActions
+- RecentActivity
+- Cleaner Dashboard architecture
+
+## Learned
+
+- Component Composition
+- Separation of Responsibilities
+- Clean React Architecture

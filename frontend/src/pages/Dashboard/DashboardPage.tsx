@@ -1,21 +1,19 @@
 import AppShell from "../../components/layout/AppShell";
+import WelcomeSection from "../../components/dashboard/WelcomeSection";
+import QuickActions from "../../components/dashboard/QuickActions";
 import OverviewCards from "../../components/dashboard/OverviewCards";
+import RecentActivity from "../../components/dashboard/RecentActivity";
+
 export default function DashboardPage() {
   return (
-    <AppShell title="Patients">
-      <h1>Welcome back, Ved 👋</h1>
+    <AppShell title="Dashboard">
+      <WelcomeSection />
 
-      <p>Let's build the future of healthcare.</p>
+      <QuickActions />
 
-      <div
-  style={{
-    display: "flex",
-    gap: "20px",
-    marginTop: "30px",
-    flexWrap: "wrap",
-  }}
-><OverviewCards />
-</div>
+      <OverviewCards />
+
+      <RecentActivity />
     </AppShell>
   );
 }
