@@ -1,5 +1,5 @@
 import AppShell from "../../components/layout/AppShell";
-import StatCard from "../../components/dashboard/StatCard";
+import OverviewCards from "../../components/dashboard/OverviewCards";
 export default function DashboardPage() {
   return (
     <AppShell title="Patients">
@@ -14,26 +14,7 @@ export default function DashboardPage() {
     marginTop: "30px",
     flexWrap: "wrap",
   }}
->
-  <StatCard
-    title="Patients"
-    value={1250}
-  />
-
-  <StatCard
-    title="Doctors"
-    value={42}
-  />
-
-  <StatCard
-    title="Medical Reports"
-    value={563}
-  />
-
-  <StatCard
-    title="AI Predictions"
-    value={3290}
-  />
+><OverviewCards />
 </div>
     </AppShell>
   );

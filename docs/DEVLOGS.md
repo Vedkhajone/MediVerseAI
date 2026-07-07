@@ -139,3 +139,19 @@ Build the first reusable StatCard.
 - Dashboard Layout
 
 # Sprint 2 - Day 5
+
+## Objective
+
+Refactor Dashboard using OverviewCards.
+
+## Completed
+
+- Created OverviewCards component
+- Refactored Dashboard
+- Reduced duplicate code
+
+## Learned
+
+- Component hierarchy
+- Parent-child components
+- Refactoring
