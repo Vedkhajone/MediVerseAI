@@ -174,3 +174,21 @@ Split Dashboard into reusable sections.
 - Component Composition
 - Separation of Responsibilities
 - Clean React Architecture
+
+# Sprint 2 - Day 7
+
+## Goal
+
+Design the Patient data model.
+
+## Completed
+
+- Created Patient interface
+- Added mock patient data
+- Started Patients module
+
+## Learned
+
+- TypeScript interfaces
+- Mock data
+- Data modeling
