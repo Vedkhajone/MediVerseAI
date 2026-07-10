@@ -192,3 +192,19 @@ Design the Patient data model.
 - TypeScript interfaces
 - Mock data
 - Data modeling
+
+
+## Sprint 2 - Day 8
+
+### Goal
+Display patient data using mock records.
+
+### Completed
+- Expanded mock patient dataset
+- Created patient table
+- Learned list rendering using map()
+
+### Learned
+- Rendering arrays
+- Tables in React
+- Working with TypeScript interfaces
