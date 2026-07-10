@@ -1,4 +1,4 @@
-import { Patient } from "../types/patient";
+import type { Patient } from "../types/patient";
 
 export const patients: Patient[] = [
   {
@@ -28,4 +28,19 @@ export const patients: Patient[] = [
 
     createdAt: new Date(),
   },
+  {
+  id: "P002",
+  firstName: "Rahul",
+  lastName: "Sharma",
+  age: 24,
+  gender: "Male",
+  bloodGroup: "A+",
+  phone: "9988776655",
+  email: "rahul@example.com",
+  address: "Pune",
+  emergencyContact: "9988776656",
+  allergies: [],
+  medicalHistory: [],
+  createdAt: new Date(),
+},
 ];
