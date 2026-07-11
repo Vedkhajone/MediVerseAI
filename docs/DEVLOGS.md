@@ -208,3 +208,26 @@ Display patient data using mock records.
 - Rendering arrays
 - Tables in React
 - Working with TypeScript interfaces
+
+# Sprint 3 - Day 1
+
+## Goal
+
+Initialize MediVerse AI backend.
+
+## Completed
+
+- Created backend project
+- Configured Python virtual environment
+- Installed FastAPI
+- Created backend folder structure
+- Implemented first API endpoints
+- Verified backend server
+- Explored Swagger documentation
+
+## Learned
+
+- FastAPI basics
+- API endpoints
+- Backend project organization
+- Virtual environments
