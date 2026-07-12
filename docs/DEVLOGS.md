@@ -231,3 +231,23 @@ Initialize MediVerse AI backend.
 - API endpoints
 - Backend project organization
 - Virtual environments
+
+# Sprint 3 - Day 3
+
+## Goal
+
+Create the first production-style API endpoint.
+
+## Completed
+
+- Created patient router
+- Added GET /patients endpoint
+- Registered router in FastAPI
+- Tested endpoint using Swagger
+
+## Learned
+
+- APIRouter
+- Route registration
+- API organization
+- Swagger testing
