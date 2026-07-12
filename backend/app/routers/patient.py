@@ -17,10 +17,16 @@ patients = [
         "name": "Rahul Sharma",
         "age": 24,
         "blood_group": "A+"
+    },
+    {
+        "id": 3,
+        "name": "Jadyaaaa",
+        "age": 1000,
+        "blood_group": "z-"
     }
 ]
 
 
-@router.get("/")
+@router.get("/{id}")
 def get_patients():
     return patients
