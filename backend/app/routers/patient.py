@@ -27,6 +27,12 @@ patients = [
 ]
 
 
-@router.get("/{id}")
-def get_patients():
-    return patients
+@router.get("/{patient_id}")
+def get_patient(patient_id: int):
+    for patient in patients:
+        if patient["id"] == patient_id:
+            return patient
+
+    return {
+        "error": "Patient not found"
+    }
