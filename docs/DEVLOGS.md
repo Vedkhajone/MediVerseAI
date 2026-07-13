@@ -251,3 +251,20 @@ Create the first production-style API endpoint.
 - Route registration
 - API organization
 - Swagger testing
+
+# Sprint 3 - Day 4
+
+## Goal
+Implement patient creation API.
+
+## Completed
+- Created PatientCreate schema
+- Added POST /patients endpoint
+- Validated request body using Pydantic
+- Tested patient creation in Swagger
+
+## Learned
+- POST requests
+- Pydantic schemas
+- Request validation
+- Basic CRUD operations
