@@ -1,5 +1,5 @@
-from fastapi import APIRouter
-
+from fastapi import APIRouter # type: ignore
+from app.schemas.patient import PatientCreate
 router = APIRouter(
     prefix="/patients",
     tags=["Patients"]
