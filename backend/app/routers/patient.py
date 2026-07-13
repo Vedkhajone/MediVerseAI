@@ -36,18 +36,17 @@ def get_patient(patient_id: int):
     return {
         "error": "Patient not found"
     }
-    
-    @router.post("/")
-    def create_patient(patient: PatientCreate):
+@router.post("/")
+def create_patient(patient: PatientCreate):
 
-        new_patient = {
+    new_patient = {
         "id": len(patients) + 1,
         "name": patient.name,
         "age": patient.age,
         "blood_group": patient.blood_group,
     }
 
-        patients.append(new_patient)
+    patients.append(new_patient)
 
     return {
         "message": "Patient created successfully",
