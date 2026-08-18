@@ -1,90 +1,46 @@
+# 🗺 Development Roadmap
 
-#  Development Roadmap
-
-## Version 0.1 – Project Foundation
-
-**Goal:** Create the project structure.
-
-* Create GitHub repository
-* Set up frontend
-* Set up backend
-* Create documentation
-* Plan architecture
+This roadmap documents the status of feature modules in **MediVerse AI**.
 
 ---
 
-## Version 0.2 – Authentication
+## 🟩 COMPLETED
 
-* Login
-* Registration
-* JWT authentication
-* User roles
-* Password hashing
-
----
-
-## Version 0.3 – Dashboard
-
-* Sidebar
-* Dashboard
-* Navigation
-* Theme
-* Dummy statistics
+- **Project Initialization (v0.1):** Set up React frontend with Vite, Tailwind, and TanStack Start. Setup FastAPI backend skeleton.
+- **Route Definitions & UI Shells:** Standardised patient, doctor, and admin dashboard UI structures.
+- **Mock Patient Endpoints:** Simple in-memory patient lookup and creation router implemented.
+- **Repository Reorganization:** Added root `.gitignore`, unified documentation structure (`docs/`), created AI Agent guide (`AGENTS.md`), and cleaned untracked local env secrets.
 
 ---
 
-## Version 0.4 – Patient Management
+## 🟨 IN PROGRESS
 
-* Add patient
-* Edit patient
-* Delete patient
-* Search patient
+- **SQLAlchemy Database Binding:** Connecting database sessions (`SessionLocal`) to FastAPI endpoints (currently patient CRUD relies on hardcoded list).
+- **Frontend API client mapping:** Planning real API requests from React components to the FastAPI backend instead of the placeholder stubs.
 
 ---
 
-## Version 0.5 – Medical Records
+## 🟦 PLANNED
 
-* Upload reports
-* View reports
-* Download reports
-* Medical history timeline
+### Phase 1: Authentication & Role-Based Access Control
+- [ ] JWT authentication endpoints (`/auth/login`, `/auth/register`).
+- [ ] Role-based middleware guards to restrict route views to `patient`, `doctor`, or `admin`.
+- [ ] Profile metadata synchronization on signup.
 
----
+### Phase 2: Patient Portal CRUD
+- [ ] Connect appointments, records, and prescriptions to database schemas.
+- [ ] Implement file upload pipelines for lab reports and PDF documents.
 
-## Version 1.0 – AI Integration
+### Phase 3: AI Diagnosis & Tabular Predictors
+- [ ] Create predictive modules using standard `scikit-learn` libraries.
+- [ ] Integrate Diabetes, Heart Disease, and Parkinson's prediction calculators.
+- [ ] Enable history tracking for past prediction computations.
 
-* Disease Prediction
-* Diabetes Prediction
-* Prediction history
+### Phase 4: Medical Imaging ML
+- [ ] Set up PyTorch inference module on backend server.
+- [ ] Develop Brain MRI upload channel and classification pipeline.
 
----
-
-## Version 1.1
-
-* Brain Tumor Detection
-
----
-
-## Version 1.2
-
-* AI Report Explanation
-
----
-
-## Version 2.0
-
-* Doctor Portal
-
----
-
-## Version 3.0
-
-* AI Assistant
-
----
-
-## Version 4.0
-
-* Production Deployment
-
----
+### Phase 5: Dashboards & Analytics
+- [ ] Doctor Dashboard: review patients, write prescriptions, manage bookings.
+- [ ] Admin Portal: audit logs viewing, user access editing.
+- [ ] Advanced metrics graphs using Recharts.

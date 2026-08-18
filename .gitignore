@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+env/
+.env/
+
+# Environments / Secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Python cache / builds
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.poetry/
+
+# Frontend builds
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

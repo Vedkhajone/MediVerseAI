@@ -1,6 +1,10 @@
 from fastapi import FastAPI
-from fastapi import FastAPI
 from app.routers.patient import router as patient_router
+from app.database.database import engine, Base
+from app.models.patient import Patient
+
+# Create database tables
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="MediVerse AI API",
@@ -18,4 +22,4 @@ def root():
 def health():
     return {
         "status": "healthy"
-    }
+    }
