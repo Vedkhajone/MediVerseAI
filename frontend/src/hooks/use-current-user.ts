@@ -20,7 +20,7 @@ export function useCurrentUser(): CurrentUser {
   return {
     user: dummyUser,
     session: { user: dummyUser } as unknown as Session,
-    role: "patient" as AppRole,
+    role: "doctor" as AppRole,
     fullName: "Demo Patient",
     email: "demo.patient@mediverse.ai",
     loading: false,
